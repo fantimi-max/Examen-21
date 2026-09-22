@@ -13,16 +13,15 @@
 # ETAPA 1 - INICIO
 # =========================
 
-nombre = input("nombre:")
-print(f"bienvenido {nombre}")
-combustible=100
-print(f"el combustible disponible es:{combustible}")
-luna=0
-marte=0
-saturno=0
-destinos= ("luna";"marte";"saturno")
-valores= (20, 35, 50)
-
+nombre= input(print("cual es tu nombre:"))
+print("bienvenido", nombre)
+combustible = 100
+print(f"el total del combustible es de:",combustible)
+luna = 0
+marte = 0
+saturno = 0
+destinos = {luna,marte,saturno}
+costos= {20,35,50}
 
 
 
@@ -31,8 +30,8 @@ valores= (20, 35, 50)
 # ETAPA 2 - NAVEGACIÓN
 # =========================
 
-# Mostrar el menú y procesar la opción seleccionada.
-# Utilizar las listas para obtener destino y costo.
+destino= input("a cual planeta queres ir:")
+
 
 
 # =========================
