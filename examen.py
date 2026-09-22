@@ -14,9 +14,9 @@
 # =========================
 
 nombre= input(print("cual es tu nombre:"))
-print("bienvenido", nombre)
+print(f"bienvenido", {nombre})
 combustible = 100
-print(f"el total del combustible es de:",combustible)
+print(f"el total del combustible es de:",{combustible})
 luna = 0
 marte = 0
 saturno = 0
@@ -30,7 +30,7 @@ costos= {20,35,50}
 # ETAPA 2 - NAVEGACIÓN
 # =========================
 
-destino= input("a cual planeta queres ir:")
+
 
 
 
