@@ -13,9 +13,18 @@
 # ETAPA 1 - INICIO
 # =========================
 
-# Crear las variables necesarias.
-# Crear las listas de destinos y costos.
-# Pedir el nombre del piloto.
+nombre = input("nombre:")
+print(f"bienvenido {nombre}")
+combustible=100
+print(f"el combustible disponible es:{combustible}")
+luna=0
+marte=0
+saturno=0
+destinos= ("luna";"marte";"saturno")
+valores= (20, 35, 50)
+
+
+
 
 
 # =========================
